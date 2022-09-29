@@ -17,7 +17,7 @@ function new_image(get_image)
 	    block_image_object.scaleToHeight(block_image_height);
         block_image_object.set({
 			top:block_y,
-			top:block_x
+			left:block_x
 		});
 	    canvas.add(block_image_object);
     }) 
